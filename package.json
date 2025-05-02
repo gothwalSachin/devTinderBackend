@@ -1,0 +1,31 @@
+{
+  "name": "devtinderbackend",
+  "version": "1.0.0",
+  "description": "Backend writtend in nodejs for devTinder, a platform for devs to connect.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gothwalSachin/devTinderBackend.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Backend",
+    "MongoDB"
+  ],
+  "author": "Sachin Gothwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gothwalSachin/devTinderBackend/issues"
+  },
+  "homepage": "https://github.com/gothwalSachin/devTinderBackend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
